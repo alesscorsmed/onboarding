@@ -193,7 +193,7 @@ rSpace = reshape(rSpace,[],2);
 rSpace = rSpace(:,1) + 1j*rSpace(:,2);
 % reshape into the recon sizes
 rSpace = reshape(rSpace,reconNx,reconNy);
-clear Gx, fx, x
+%clear Gx, fx, x
 
 % solve the WLS problem to generate the Pr Pi solution
 B=diag(fx.^2);
